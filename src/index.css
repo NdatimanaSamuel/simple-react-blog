@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+  margin: 0;
+  font-family: "Quicksand";
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #2C3E50;
+    justify-content: space-between;
+}
+.logo{
+  color: #FFF;
+  font-weight: 900;
+}
+
+.navbar .links{
+  display: flex;
+    flex-direction: row;
+}
+.navbar .links a{
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 1px;
+}
+
+nav .links  a:hover{
+  color: #DC7633;
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.cta{
+  background-color: #0d7963;
+  color: #FFF;
+}
+
+.cta:hover{
+  background-color: #0d7963;
+  color: #FFF;
+}
+
+.blog-preview{
+padding: 10px 16px;
+margin: 20px 0;
+border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover{
+   box-shadow: 1px 3px 5px;
+}
+.blog-preview h2{
+  font-size: 20px;
+  color: #0d7963;
+  margin-bottom: 8px;
+}
+.btndelete{
+  font-size: 16px;
+  color: red;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: 1px solid lighten(gray, 24%);
+  height: 40px;
+  padding: 0 24px 0 16px;
+  letter-spacing: .25px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.blog-details h2{
+  margin-bottom: 20px;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+
+}
+.create button {
+  background: #0d7963;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.form-input{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  
+}
+.btn-regsiter{
+  margin-top: 20px;
+  background: #0d7963;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 80px;
+}
+.ourform {
+  margin-top: 20px;
+}
